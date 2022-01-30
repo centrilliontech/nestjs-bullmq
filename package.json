@@ -1,6 +1,6 @@
 {
   "name": "@centrilliontech/nestjs-bullmq",
-  "version": "1.1.0-development",
+  "version": "1.1.0",
   "description": "Nest - modern, fast, powerful node.js web framework (@bullmq)",
   "homepage": "https://github.com/ejhayes/nestjs-bullmq",
   "bugs": {
