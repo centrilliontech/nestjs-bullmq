@@ -1,10 +1,10 @@
 import { SetMetadata } from '@nestjs/common';
+import { WorkerOptions } from 'bullmq';
 import { isString } from 'util';
 import { BULL_MODULE_QUEUE_PROCESS } from '../bull.constants';
 
-export interface ProcessOptions {
+export interface ProcessOptions extends WorkerOptions {
   name?: string;
-  concurrency?: number;
 }
 
 export function Process(): MethodDecorator;
